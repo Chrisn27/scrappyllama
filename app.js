@@ -40,8 +40,7 @@ var index = require('./routes/index.js');
 app.use('/', index);
 
 // GET PORT FROM ENVIORNMENT AND STORE IN EXPRESS.
-// const port = process.env.PORT || 3000;
-const port = 3000;
+const port = process.env.PORT || 3000;
 // app.set('port', port);
 
 
