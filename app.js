@@ -16,7 +16,8 @@ app.use(bodyParser.urlencoded({
 }));
 
 // DATABASE CONFIGURATION
-mongoose.connect('mongodb://localhost/scraper');
+mongoose.connect('mongodb://heroku_952ksddq:mgthv06vre5vpuj3fgkn44tul9@ds117913.mlab.com:17913/heroku_952ksddq');
+// mongoose.connect('mongodb://localhost/scraper');
 const db = mongoose.connection;
 
 db.on('error', function(err) {
